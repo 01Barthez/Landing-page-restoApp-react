@@ -1,0 +1,22 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/*
+dark-config{
+    @apply bg-white text-gray-950 dark:text-white dark:bg-gray-950 duration-200;
+}
+*/
+
+@keyframes spin{
+    from{
+        transform: rotateZ(0deg);
+    }
+    to{
+        transform: rotateZ(360deg);
+    }
+}
+
+.spin{
+    animation: spin 10s linear infinite;
+}
